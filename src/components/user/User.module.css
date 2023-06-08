@@ -1,0 +1,68 @@
+/* User card */
+.profile {
+    background-color: #fafafa;
+    border-radius: 15px;
+    width: 500px;
+    border: 1px solid grey;
+}
+* {
+    text-align: center;
+}
+
+.description {
+    padding: 15px;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: bold;
+    color:cadetblue;
+}
+
+.tag {
+    font-size: 34px;
+    color: rgb(209, 209, 47);
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.location {
+    font-size: 24px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    gap: 30px;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+
+
+
+.label {
+    font-size: 28px;
+}
+
+.quantity {
+    font-size: 24px;
+    color: rgb(44, 186, 44);
+}
+
+.item {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    list-style: none;
+}
+
+.item:not(:last-child) {
+    border-right: 1px solid rgb(227, 227, 227);
+}
