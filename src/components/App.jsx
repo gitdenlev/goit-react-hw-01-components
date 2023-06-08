@@ -6,8 +6,10 @@ import transaction from './transactionHistory/transaction.json';
 
 // Секції
 import { User } from './user/User.jsx';
-import { Statistics } from './statisctics/Statistics';
-import { FriendList } from "./friendList/FriendList";
+import { Statistics } from './statisctics/Statistics.jsx';
+import { FriendList } from "./friendList/FriendList.jsx";
+import { TransactionHistory } from './transactionHistory/TransactionHistory.jsx';
+
 
 
 export const App = () => {
@@ -33,6 +35,7 @@ export const App = () => {
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
+      <TransactionHistory transactions={transaction}  />
     </div>
     
   );
